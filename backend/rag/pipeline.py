@@ -12,4 +12,4 @@ def rag_pipeline(query: str):
 if __name__ == "__main__":
     
     res = rag_pipeline("What is the placement record?")
-    print(res["answer"])
+    print(res["response"])
